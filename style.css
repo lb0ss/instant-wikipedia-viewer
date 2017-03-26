@@ -1,0 +1,62 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/12/Wikipedia.jpg") no-repeat fixed;
+  background-position: 55% 125%; 
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+   position: fixed top;
+   height: 100px;
+   background-color: #74b3cb;
+   padding: 3px;
+   opacity: .9;
+
+}
+
+.banner h1 {
+  text-align: center;
+  color: #fff;
+  
+}
+
+.wiki_viewer {
+  text-align: center;
+  padding: 50px;
+}
+
+#searchbox {
+  padding: 25px;
+  margin:  10px;
+  width: 450px;
+  max-width: 100%;
+  /*   Useful for preventing the searchbox from overflowing */
+  box-sizing: border-box; 
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+#output {
+  color: black;
+  position: relative;
+  line-height: 25px;
+  text-align: left;
+  margin: auto;
+  min-width: 130px;
+  max-width: 680px;
+  z-index: 2;
+  background-color: #6aa3b9;
+  opacity: .9;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer div{
+/*   position: fixed; */
+  text-align: center;
+  margin: 500px auto; 
+}
